@@ -1,0 +1,27 @@
+# Generated at runtime. These hold HubSpot object IDs specific to one portal,
+# so they are not useful to anyone else and would go stale immediately.
+deal_id_mapping.json
+deal_answer_key.json
+company_id_mapping.json
+contact_id_mapping.json
+contact_answer_key.json
+note_id_mapping.json
+email_id_mapping.json
+fetched_deal_data.json
+scored_deals.json
+enriched_deals.json
+final_results.json
+brief_deals.json
+ranked_at_risk.json
+
+# Generated output
+*.pdf
+
+# Credentials should come from environment variables, never a committed file
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/

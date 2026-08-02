@@ -1,0 +1,3 @@
+# The pipeline runs on the standard library alone. reportlab is the single
+# exception, used to generate the pre-read PDF in agent_06.
+reportlab>=4.0.0
